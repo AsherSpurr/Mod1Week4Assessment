@@ -38,19 +38,19 @@ To Edit the README:
     B. `Chair bench = new Chair(24, true);`  
     C. `var bench = new(24, true);`  
     D. `Chair bench = new(24, true);`  
-    
+Answer: Option C isn't a valid way to create an instance. It isn't creating a new instance at all because of the lack of Chair function/ it doesn't call on the Chair class to create a new instance. And I assume if using C an error will come up.
     
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
-
+   Answer: OOP is Object Oriented Programming and is incredibly beneficial for the functionality and readability of the program. It allows us to separate our program into smaller chunks and create objects plus methods. This allows for the reusability of the code and dries out the main cs.
 
 3. What is Automated Testing?
-
+   Answer: It's the process of creating a method that specifically checks the functioning of a specific piece of code. Instead of manually checking you would run the code through the created test which gives you a definitive answer as to if it's working or not.
 
 4. What are some benefits of creating tests for our projects?
-
+   Answer: In the long run it saves time and reduces the likelihood of human error interfering. It also allows us to check small sections of code at a time without running the entire program.
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
-
+   Answer: You need to add a project reference to the test code. It allows access to the classes in whatever project you're adding the reference to.
 6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working. You do not need to write the whole test, just what you would **name** the test methods. Ex: `IsCreatedWithTwoArguments()`
 ```c#
     public class Vehicle
@@ -83,6 +83,11 @@ To Edit the README:
         }
     }
 ```
+(Naming is my biggest downfall)
+1: CanCreateWithTwoArguments()
+2: ReturnsSummaryWithThreeArguments()
+3: CanIncreaseMilesDrivenBy5() -- (probably shouldn't be so specific to the method but I had no idea what else to name it)
+4: CanReassignAttributeOfColor()
 
 
 
