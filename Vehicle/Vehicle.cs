@@ -12,7 +12,7 @@ namespace Vehicle
     public class Vehicle
     {
         public int NumberOfWheels { get; }
-        public string Color { get; private set;  }
+        public string Color { get; private set;  } 
         public int MilesDriven { get; private set; }
 
         public Vehicle(int numberOfWheels, string color)
@@ -28,14 +28,16 @@ namespace Vehicle
             return summary;
         }
 
-        public void Drive()
+        public int Drive() //Had to edit this method to return int type - was getting error CS1503 before
         {
-            MilesDriven += 5;
+           int drive = MilesDriven += 5;
+            return drive;
         }
 
-        public void Paint(string newColor)
+        public string Paint(string newColor)
         {
             Color = newColor;
+            return newColor;
         }
     }
 }
