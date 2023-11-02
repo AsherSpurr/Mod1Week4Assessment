@@ -84,7 +84,7 @@ Answer: Option C isn't a valid way to create an instance. It isn't creating a ne
     }
 ```
 (Naming is my biggest downfall)
-1: CanCreateWithTwoArguments()
+1: CanCreateWithThreeArguments()
 2: ReturnsSummaryWithThreeArguments()
 3: CanIncreaseMilesDrivenBy5() -- (probably shouldn't be so specific to the method but I had no idea what else to name it)
 4: CanReassignAttributeOfColor()
